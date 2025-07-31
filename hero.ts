@@ -1,3 +1,5 @@
 // hero.ts
 import { heroui } from "@heroui/react";
-export default heroui();
+import { herouiConfig } from "./tailwind.config";
+
+export default heroui(herouiConfig);
